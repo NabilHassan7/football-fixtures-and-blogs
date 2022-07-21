@@ -232,7 +232,7 @@ body{
 
 .page-footer{
     width: 100%;
-    height: 444px;
+    height: 500px;
     background-color: #161616;
     display: flex;
     flex-direction: column;
@@ -283,6 +283,22 @@ body{
     color: #dd0000;
 }
 
+.footer-logos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+}
+
+.fixture-logo-container{
+    width: 200px;
+    margin: 50px;
+}
+
+.font-icons{
+    color: #dd0000;
+    font-size: 24px;
+}
 /* Start of css for the page "Match Fixtures" */
 
 .fixtures{
