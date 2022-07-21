@@ -33,7 +33,7 @@ body{
     margin-top: 111px;
     margin-bottom: 111px;
     margin-left: 106px;
-    color: #ffffff
+    color: #ffffff;
 }
 
 .banner-primary-text{
@@ -112,6 +112,11 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.navbar-tab a{
+    text-decoration: none;
+    color: #161616;
 }
 
 .navbar-tab:hover{
@@ -349,7 +354,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     .header-banner-container{
-        width: 100vw;
+        max-width: 1fr;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -388,6 +393,7 @@ body{
 
     .header-banner-container{
         margin-bottom: 0px;
+        border-radius: 5px;
     }
 
     .blogs{
@@ -432,7 +438,7 @@ body{
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .header-banner-container{
-        width: 100vw;
+        max-width: 100%;
         height: auto;
         display: flex;
     }
@@ -474,6 +480,7 @@ body{
     }
 
     .header-banner-container{
+        border-radius: 0px;
         margin-bottom: 0px;
     }
 
@@ -507,7 +514,8 @@ body{
 
     .footer-secondary{
         display: flex;
-        justify-content: center;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
         align-items: center;
         height: auto;
     }
