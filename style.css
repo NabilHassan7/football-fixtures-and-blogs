@@ -220,6 +220,7 @@ body{
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+    display: none;
 }
 
 .view-button a{
@@ -425,6 +426,99 @@ body{
     .footer-logos{
         height: auto;
         margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .header-banner-container{
+        width: 100vw;
+        height: auto;
+        display: flex;
+    }
+
+    .header-banner{
+        display: flex;
+        width: 100vw;
+        height: auto;
+    }
+
+    .header-banner-text{
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+
+    .banner-link-button{
+        margin-top: 20px;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+
+    .navbar{
+        width: 100vw;
+        align-items: center;
+        background-color: #ffffff;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar-tab{
+        border: 1px solid #E8E8E8;
+    }
+
+    .header-banner-container{
+        margin-bottom: 0px;
+    }
+
+    .blogs{
+        display: grid;
+        width: 100vw;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .view-button{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .page-footer{
+        width: 100vw;
+        height: auto;
+    }
+
+    .footer-header{
+        height: auto;
+    }
+
+    .page-footer hr{
+        width: 80vw;
+    }
+
+    .footer-secondary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .footer-logos{
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .hide-content{
+        display: none;
     }
 
 }
